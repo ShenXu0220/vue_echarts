@@ -5,7 +5,7 @@
 <template>
   <div class="com-page">
     <!-- Seller -->
-    <seller></seller>
+    <Seller></Seller>
   </div>
 </template>
 
@@ -16,7 +16,6 @@ import Seller from '@/components/Seller'
     components:{Seller},
     data(){
       return{
-
       }
     }
   }
